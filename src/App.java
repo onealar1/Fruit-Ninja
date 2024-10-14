@@ -9,7 +9,9 @@ public class App extends Application{
         
         // Your code goes here!!
         Game myGame = new Game();
-        frame.addGame(myGame);
+        frame.addGame(myGame); // adding the game to the frame
+        frame.setTop(Game.controller); // add score to game
+        myGame.startGame(); // starting the game
         
     }
     public static void main(String[] args) throws Exception {
