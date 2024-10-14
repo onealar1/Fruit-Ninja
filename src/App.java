@@ -8,6 +8,8 @@ public class App extends Application{
         cs3331FruitNinjaFrame frame = new cs3331FruitNinjaFrame(primaryStage);
         
         // Your code goes here!!
+        Game myGame = new Game();
+        frame.addGame(myGame);
         
     }
     public static void main(String[] args) throws Exception {
