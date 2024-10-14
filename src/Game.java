@@ -15,8 +15,7 @@ public class Game extends cs3331FruitNinjaGame{
 
     
     public void updateChoppable(Object object) {
-        
-        // Your code goes here
+
         
     }
 
