@@ -31,7 +31,7 @@ public class Game extends cs3331FruitNinjaGame{
     public Choppable launchItem() {
 
         // random number created every time the method is called
-        int objNum = (int)(Math.random()*4);
+        int objNum = (int)(Math.random()*5);
 
         // switch statement for creating the object at the random index the objNum creates
         switch (objNum) {
